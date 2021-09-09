@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('_head.html',{
+	"title":"Article",
+	})
+	<body>
+		<div class="wrapper">
+			@@include('_header.html',{
+			"link":"1"
+			})
+			<main class="page">
+				<div class="article">
+					<h1 class="article__title">Дизайнерские работы</h1>
+					<div class="article__info">
+						<div class="article__year">2021</div>
+						<div class="article__category">Мастер класс на показ</div>
+					</div>
+					<div class="article__text">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa amet voluptas ex deserunt cum nam, quos perferendis dolores corrupti illo.
+						</p>
+						<img src="img/article/01.jpg" alt="">
+						<p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, vitae quod.
+						</p>
+						<img src="img/article/02.jpg" alt="">
+						<img src="img/article/03.jpg" alt="">
+					</div>
+				</div>
+			</main>
+			@@include('_footer.html',{})
+		</div>
+		@@include('_js.html',{})
+	</body>
+</html>
